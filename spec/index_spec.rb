@@ -1,27 +1,7 @@
 require_relative './spec_helper.rb'
 require_relative '../index.rb'
 
-ingr_def = [
-  ["rye", "sourdough", "baguette"],
-  ["ham", "salami", "turkey"],
-  ["swiss", "munster", "cheddar"],
-  ["mayo", "mustard", "tabasco"]
-]
-
-ingr_small = [
-  ["mayo", "mustard", "tabasco"],
-  ["swiss", "munster", "cheddar"],
-  ["rye", "sourdough", "baguette"],
-]
-
-ingr_large = [
-  ["rye", "sourdough", "baguette"],
-  ["ham", "salami", "turkey"],
-  ["swiss", "munster", "cheddar"],
-  ["mayo", "mustard", "tabasco"],
-  ["lettuce", "tomatoes", "pickles"]
-]
-
+ 
 describe "sandwich_request" do
 
   it 'returns true if all order ingredients are found' do
