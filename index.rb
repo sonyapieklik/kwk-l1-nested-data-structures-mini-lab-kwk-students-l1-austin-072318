@@ -6,10 +6,12 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
-def sandwich_request(ingredients, order) 
-  # your code here!
-end
 
+
+def sandwich_request(ingredients, order) 
+ sandwich_request(ingr_def, [ingredients[0][1], ingredients[1][2], ingredients[2][0], ingredients[3][1])
+end
+puts sandwich_request
 # example city_info hash
 cities = {
   :new_york => { 
